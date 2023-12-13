@@ -1,0 +1,253 @@
+.backtotop,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a:focus,
+.main-navigation .count,
+.main-navigation .search-form .search-submit:hover,
+.main-navigation .search-form .search-submit:focus,
+.menu-toggle:hover,
+.menu-toggle:focus,
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+.pagination .page-numbers:focus,
+.author-name:after,
+.reply a,
+.btn,
+.slick-dots li.slick-active button,
+.featured-slider .read-more a:hover,
+.featured-slider .read-more a:focus,
+.woocommerce ul.products li.product .onsale,
+.woocommerce span.onsale,
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+.single-wrapper .entry-meta > span.tags-links a:hover,
+.single-wrapper .entry-meta > span.tags-links a:focus,
+span.discount-offer,
+.dark-version .pagination .page-numbers.current, 
+.dark-version .pagination .page-numbers:hover, 
+.dark-version .pagination .page-numbers:focus,
+#subscribe-email:after,
+.btn:after,
+.slick-prev:hover, 
+.slick-next:hover, 
+.slick-prev:focus, 
+.slick-next:focus,
+.second-design .cart-count span,
+#learner_pro_about_us .btn:hover, #learner_pro_about_us .btn:focus,
+#colophon,
+.woocommerce ul.products li.product .discount,
+.woocommerce ul.products li.product .button:hover, 
+.woocommerce ul.products li.product .button:focus,
+#learner_pro_popular_product article .btn:hover, 
+#learner_pro_popular_product article .btn:focus,
+.third-design ul.post-categories li a,
+#learner_pro_event_schedule .tabs,
+#learner_pro_important_event article:nth-child(odd):before, 
+#learner_pro_important_event article:nth-child(even):before,
+#learner_pro_important_event article:nth-child(odd):after, 
+#learner_pro_important_event article:nth-child(even):after,
+#learner_pro_event_gallery .overlay {
+    background-color: #03A9F5;
+}
+
+a:hover,
+.site-title a:hover,
+.site-title a:focus,
+.main-navigation ul.nav-menu li:hover > a,
+.main-navigation ul.nav-menu li:focus > a,
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation ul.nav-menu > li > a:hover,
+.main-navigation ul.nav-menu > li > a:focus,
+.post-navigation a, 
+.posts-navigation a,
+.navigation.post-navigation a:hover,
+.navigation.posts-navigation a:hover,
+.navigation.post-navigation a:focus,
+.navigation.posts-navigation a:focus,
+#secondary ul li a:hover,
+#secondary ul li a:focus,
+.page-header small,
+.posted-on a:hover,
+.posted-on a:focus,
+#secondary .posted-on a:hover,
+#secondary .posted-on a:focus,
+.single-wrapper span.tags-links a:hover,
+.single-wrapper span.tags-links a:focus,
+.comment-metadata a:hover,
+.comment-metadata a:focus,
+.comment-meta .url:hover,
+.comment-meta .url:focus,
+.section-subtitle,
+.section-title a:hover,
+.section-title a:focus,
+.entry-title a:hover,
+.entry-title a:focus,
+.product_meta a:hover,
+.product_meta a:focus,
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price,
+.woocommerce ul.products li.product .price,
+.archive-blog-wrapper .post-footer-meta a:hover,
+.archive-blog-wrapper .post-footer-meta a:focus,
+ul.post-categories li a:hover,
+ul.post-categories li a:focus,
+.product_meta a:hover,
+.product_meta a:focus,
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price,
+.woocommerce ul.products li.product .price,
+.entry-meta span:not(:last-child):after,
+.posted-on a,
+#learner_pro_hero_banner .entry-title span,
+#learner_pro_about_us .entry-subtitle,
+#learner_pro_about_us .counter-value,
+#learner_pro_about_us .btn,
+#learner_pro_courses .price span,
+#learner_pro_testimonials .entry-title a,
+.read-full a,
+.slider-content-wrapper .entry-title a:hover, 
+.slider-content-wrapper .entry-title a:focus,
+.second-design ul.post-categories li a:hover,
+.second-design ul.post-categories li a:focus,
+.second-design .posted-on a:hover,
+.second-design .posted-on a:focus,
+.third-design .posted-on a:hover,
+.third-design .posted-on a:focus,
+.fourth-design .posted-on a:hover,
+.fourth-design .posted-on a:focus,
+ul.product-nav li.active a, 
+ul.product-nav li a.active, 
+ul.product-nav li a:hover,
+#learner_pro_popular_product .cat-links a:hover,
+#learner_pro_popular_product .cat-links a:focus,
+#learner_pro_popular_product .entry-title a:hover,
+#learner_pro_popular_product .entry-title a:focus,
+#learner_pro_featured_post .entry-title a:hover, 
+#learner_pro_featured_post .entry-title a:focus,
+#learner_pro_trending_post .entry-title a:hover, 
+#learner_pro_trending_post .entry-title a:focus,
+.entry-fee span .fa,
+.single-wrapper .entry-meta a:hover, .single-wrapper .entry-meta a:focus,
+.dark-version .section-subtitle,
+.dark-version .entry-title a:hover, 
+.dark-version .entry-title a:focus,
+.dark-version ul.product-nav li.active a, 
+.dark-version ul.product-nav li a.active, 
+.dark-version ul.product-nav li a:hover,
+.dark-version ul.product-nav li a:focus,
+.dark-version #secondary ul li a:hover, 
+.dark-version #secondary ul li a:focus,
+.dark-version.third-design .posted-on a:hover,
+.dark-version.third-design .posted-on a:focus,
+.dark-version.fourth-design .posted-on a:hover,
+.dark-version.fourth-design .posted-on a:focus,
+.dark-version a:hover, .dark-version a:focus,
+.dark-version .single-wrapper .entry-meta a:hover,
+.dark-version .single-wrapper .entry-meta a:focus,
+.dark-version .navigation.post-navigation a:hover,
+.dark-version .navigation.post-navigation a:focus,
+.dark-version .comment-meta .url:hover,
+.dark-version .comment-meta .url:focus {
+	color: #03A9F5;
+}
+
+.btn {
+	color: #fff;
+}
+
+.loader-container svg,
+.main-navigation ul.nav-menu li:hover > svg,
+.main-navigation ul.nav-menu li:focus > svg,
+.main-navigation li.menu-item-has-children:hover > a > svg,
+.main-navigation li.menu-item-has-children > a:hover > svg,
+.main-navigation li.menu-item-has-children > a:focus > svg,
+.main-navigation ul.nav-menu > li.current-menu-item > a > svg,
+.main-navigation ul.nav-menu > li > a.search:hover svg.icon-search,
+.main-navigation ul.nav-menu > li > a.search:focus svg.icon-search,
+.main-navigation li.search-menu a:hover svg,
+.main-navigation li.search-menu a:focus svg,
+.main-navigation li.search-menu a.search-active svg,
+.navigation.post-navigation a:hover svg,
+.navigation.posts-navigation a:hover svg,
+.navigation.post-navigation a:focus svg,
+.navigation.posts-navigation a:focus svg,
+.widget_search form.search-form button.search-submit:hover svg,
+.widget_search form.search-form button.search-submit:focus svg,
+.single-wrapper span.posted-on svg,
+.single-wrapper span.cat-links svg,
+.second-design .main-navigation .login-register li a:hover svg, 
+.second-design .main-navigation .login-register li a:focus svg,
+.woocommerce .product_meta .favourite a:hover svg,
+.woocommerce .product_meta .favourite a:focus svg,
+.main-navigation ul.nav-menu .login-register li:hover > a svg, 
+.main-navigation ul.nav-menu .login-register li.focus > a svg {
+	fill: #03A9F5;
+}
+
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+.pagination .page-numbers:focus,
+.single-wrapper span.tags-links a:hover,
+.single-wrapper span.tags-links a:focus,
+.slick-dots li button,
+.single-wrapper .entry-meta > span.tags-links a:hover,
+.single-wrapper .entry-meta > span.tags-links a:focus,
+.dark-version .pagination .page-numbers.current, 
+.dark-version .pagination .page-numbers:hover, 
+.dark-version .pagination .page-numbers:focus,
+.main-navigation .header-button ul li:not(:last-child) a,
+.btn,
+button, input[type="button"], 
+input[type="reset"], 
+input[type="submit"],
+#learner_pro_about_us .btn:hover, #learner_pro_about_us .btn:focus,
+.woocommerce ul.products li.product .button:hover, 
+.woocommerce ul.products li.product .button:focus,
+#learner_pro_popular_product article .btn:hover, 
+#learner_pro_popular_product article .btn:focus {
+	border-color: #03A9F5;
+}
+.site-info .wrapper {
+	border-color: #5dfdd4;
+}
+#learner_pro_event_schedule .tabs li.active a {
+    background-color: #02d0f5;
+}
+#learner_pro_latest_event article:hover {
+    background-image: linear-gradient(rgb(3 169 245 / 44%), rgb(3 169 245 / 28%));
+}
+#learner_pro_courses .tabs li.active:before {
+	background: linear-gradient(90deg, rgba(249,250,252,1) 23%, rgba(255,255,255,1) 28%, rgb(3 169 245) 96%);
+}
+@media screen and (min-width: 1024px) {
+	.main-navigation ul.nav-menu > li.current-menu-item > a:hover:before, 
+	.main-navigation ul.nav-menu > li.current-menu-item > a:focus:before {
+		background-color: #03A9F5;
+	}
+	.dark-version .main-navigation ul.nav-menu > li:hover > a, 
+	.dark-version .main-navigation ul.nav-menu > li:focus > a {
+		color: #03A9F5;
+	}
+	.dark-version .main-navigation ul.nav-menu li:hover > svg, 
+	.dark-version .main-navigation ul.nav-menu li:focus > svg,
+	.dark-version .main-navigation li.menu-item-has-children:hover > a > svg, 
+	.dark-version .main-navigation li.menu-item-has-children > a:hover > svg, 
+	.dark-version .main-navigation li.menu-item-has-children > a:focus > svg,
+	.dark-version #masthead .main-navigation .login-register ul li:hover > a svg, 
+	.dark-version #masthead .main-navigation .login-register ul li.focus > a svg {
+		fill: #03A9F5;
+	}
+}
+
+@keyframes preloader {
+    0% {height:5px;transform:translateY(0px);background: #03A9F5;}
+    25% {height:30px;transform:translateY(15px);background: #03A9F5;}
+    50% {height:5px;transform:translateY(0px);background: #03A9F5;}
+    100% {height:5px;transform:translateY(0px);background: #03A9F5;}
+}
