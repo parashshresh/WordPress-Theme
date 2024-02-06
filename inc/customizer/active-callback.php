@@ -47,17 +47,6 @@ if ( ! function_exists( 'coast_pro_is_static_homepage_enable' ) ) :
 endif;
 
 /**
- * Check if header button section is enabled.
- *
- * @since Coast Pro 1.0.0
- * @param WP_Customize_Control $control WP_Customize_Control instance.
- * @return bool Whether the control is active to the current preview.
- */
-function coast_pro_is_primary_menu_header_button_enable( $control ) {
-	return ( $control->manager->get_setting( 'coast_pro_theme_options[primary_menu_header_button_enable]' )->value() );
-}
-
-/**
  * Front Page Active Callbacks
  */
 

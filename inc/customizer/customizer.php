@@ -98,11 +98,11 @@ function coast_pro_customize_register( $wp_customize ) {
 	// load layout
 	require get_template_directory() . '/inc/customizer/theme-options/layout.php';
 
-	// load menu
-	require get_template_directory() . '/inc/customizer/theme-options/menu.php';
-
 	// load static homepage option
 	require get_template_directory() . '/inc/customizer/theme-options/homepage-static.php';
+
+	// load menu
+	require get_template_directory() . '/inc/customizer/theme-options/menu.php';
 
 	// load archive option
 	require get_template_directory() . '/inc/customizer/theme-options/excerpt.php';

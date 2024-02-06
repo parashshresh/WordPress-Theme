@@ -86,10 +86,6 @@ function coast_pro_get_default_theme_options() {
 		'post_sidebar_position' 		=> 'right-sidebar',
 		'page_sidebar_position' 		=> 'right-sidebar',
 		'menu_sticky'					=> true,
-		'primary_menu_header_button_enable'				=> false,
-		'menu_first_btn_label'			=> esc_html__( 'Log in', 'coast' ),
-		'menu_second_btn_label'			=> esc_html__( 'Sign Up', 'coast' ),
-
 
 		// excerpt options
 		'long_excerpt_length'           => 25,

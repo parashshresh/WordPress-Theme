@@ -159,25 +159,6 @@ if ( ! function_exists( 'coast_pro_site_navigation' ) ) :
 			</button>
 
 			<?php  
-				$first_btn_label = !empty( $options['menu_first_btn_label'] ) ? $options['menu_first_btn_label'] : '';
-				$first_btn_url = !empty( $options['menu_first_btn_url'] ) ? $options['menu_first_btn_url'] : '#';
-
-				$second_btn_label = !empty( $options['menu_second_btn_label'] ) ? $options['menu_second_btn_label'] : '';
-				$second_btn_url = !empty( $options['menu_second_btn_url'] ) ? $options['menu_second_btn_url'] : '#';
-				$header_btn = '';
-				if ( $options['primary_menu_header_button_enable'] ) :            	
-					$header_btn .= '<li class="header-button"><ul>';
-					
-					if ( !empty( $first_btn_label ) ) {
-						$header_btn .= '<li class="first"><a href="'. esc_url( $first_btn_url ) .'" class="btn">'. esc_html( $first_btn_label ).'</a></li>';
-					}
-					if ( !empty( $second_btn_label ) ) {
-						$header_btn .= '<li class="second"><a href="'. esc_url( $second_btn_url ) .'" class="btn">'. esc_html( $second_btn_label ) .'</a></li>';
-					}
-					
-					$header_btn .= '</ul></li>';
-                endif;
-        	
         		wp_nav_menu( array(
         			'theme_location' => 'primary',
         			'container' => 'div',
@@ -185,7 +166,7 @@ if ( ! function_exists( 'coast_pro_site_navigation' ) ) :
         			'menu_id' => 'primary-menu',
         			'echo' => true,
         			'fallback_cb' => 'coast_pro_menu_fallback_cb',
-        			'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s' . $header_btn . '</ul>',
+					'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s' . wptravel_get_cart_icon() . '</ul>',
         		) );
         	?>
 		</nav><!-- #site-navigation -->

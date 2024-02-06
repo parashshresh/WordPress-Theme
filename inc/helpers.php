@@ -60,7 +60,7 @@ if ( ! function_exists( 'coast_pro_is_sidebar_enable' ) ) :
 				$post_sidebar_position = ! empty( $post_sidebar_position ) ? $post_sidebar_position : $options['page_sidebar_position'];
 			}
 		}
-		if ( ( in_array( $sidebar_position, array( 'no-sidebar' ) ) && $post_sidebar_position == "" ) || in_array( $post_sidebar_position, array( 'no-sidebar' ) ) ) {
+		if ( ( in_array( $sidebar_position, array( 'no-sidebar', 'no-sidebar-content' ) ) && $post_sidebar_position == "" ) || in_array( $post_sidebar_position, array( 'no-sidebar', 'no-sidebar-content' ) ) ) {
 			return false;
 		} else {
 			return true;
@@ -106,8 +106,8 @@ if ( ! function_exists( 'coast_pro_pagination' ) ) :
 			$pagination = $options['pagination_type'];
 			if ( $pagination == 'default' ) :
 				the_posts_navigation( array(
-			'prev_text'	=> coast_pro_get_svg( array( 'icon' => 'up' ) ) .  '<span>' . esc_html__( 'Older', 'coast' ) . '</span>',
-            'next_text' => '<span>' . esc_html__( 'Next', 'coast' ) . '</span>' . coast_pro_get_svg( array( 'icon' => 'up' ) ),
+			'prev_text'	=> coast_pro_get_svg( array( 'icon' => 'up' ) ) .  '<span>' . esc_html__( 'Older', 'coast-pro' ) . '</span>',
+            'next_text' => '<span>' . esc_html__( 'Next', 'coast-pro' ) . '</span>' . coast_pro_get_svg( array( 'icon' => 'up' ) ),
 		) );
 			elseif ( in_array( $pagination, array( 'infinite', 'numeric' ) ) ) :
 				the_posts_pagination( array(
@@ -204,7 +204,7 @@ endif;
 
 function coast_pro_font_choices() {
     $font_family_arr = array();
-    $font_family_arr[''] = esc_html__( '--Default--', 'coast' );
+    $font_family_arr[''] = esc_html__( '--Default--', 'coast-pro' );
 
     // Make the request
     $request = wp_remote_get( get_theme_file_uri( 'assets/webfonts.json' ) );
@@ -289,12 +289,12 @@ add_action( 'wp_footer', 'coast_pro_include_svg_icons', 9999 );
 function coast_pro_get_svg( $args = array() ) {
 	// Make sure $args are an array.
 	if ( empty( $args ) ) {
-		return esc_html__( 'Please define default parameters in the form of an array.', 'coast' );
+		return esc_html__( 'Please define default parameters in the form of an array.', 'coast-pro' );
 	}
 
 	// Define an icon.
 	if ( false === array_key_exists( 'icon', $args ) ) {
-		return esc_html__( 'Please define an SVG icon filename.', 'coast' );
+		return esc_html__( 'Please define an SVG icon filename.', 'coast-pro' );
 	}
 
 	// Set defaults.
@@ -500,7 +500,7 @@ function coast_pro_menu_fallback_cb( $args ){
    	}
     // see wp-includes/nav-menu-template.php for available arguments
     $link = $args['link_before']
-        	. '<a href="' .esc_url( admin_url( 'nav-menus.php' ) ) . '">' . $args['before'] . esc_html__( 'Add a menu','coast' ) . $args['after'] . '</a>'
+        	. '<a href="' .esc_url( admin_url( 'nav-menus.php' ) ) . '">' . $args['before'] . esc_html__( 'Add a menu','coast-pro' ) . $args['after'] . '</a>'
         	. $args['link_after'];
 
    	if ( FALSE !== stripos( $args['items_wrap'], '<ul' ) || FALSE !== stripos( $args['items_wrap'], '<ol' )
@@ -583,16 +583,16 @@ add_action( 'coast_pro_simple_breadcrumb', 'coast_pro_simple_breadcrumb' , 10 );
 function coast_pro_custom_header_banner_title() {	
 	$options = coast_pro_get_theme_options();
 	if ( coast_pro_is_latest_posts() ) : 
-		$title = ! empty( $options['your_latest_posts_title'] ) ? $options['your_latest_posts_title'] : esc_html_e( 'Blog', 'coast' ); ?>
+		$title = ! empty( $options['your_latest_posts_title'] ) ? $options['your_latest_posts_title'] : esc_html_e( 'Blog', 'coast-pro' ); ?>
 		<h2 class="page-title"><?php echo esc_html( $title ); ?></h2>
 	<?php elseif ( coast_pro_is_blog_page() || is_singular() ): ?>
 		<h1 class="page-title"><?php single_post_title(); ?></h1>
 	<?php elseif ( is_archive() ) : 
 		the_archive_title( '<h1 class="page-title">', '</h1>' );
 	elseif ( is_search() ) : ?>
-		<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'coast' ), get_search_query() ); ?></h1>
+		<h1 class="page-title"><?php printf( esc_html__( 'Search Results for: %s', 'coast-pro' ), get_search_query() ); ?></h1>
 	<?php elseif ( is_404() ) :
-		echo '<h1 class="page-title">' . esc_html__( 'Oops! That page can&#39;t be found.', 'coast' ) . '</h1>';
+		echo '<h1 class="page-title">' . esc_html__( 'Oops! That page can&#39;t be found.', 'coast-pro' ) . '</h1>';
 	endif;
 }
 

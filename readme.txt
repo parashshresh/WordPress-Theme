@@ -1,4 +1,4 @@
-=== Coast Pro ===
+=== Coast ===
 
 Contributors: themepalace
 Tags: translation-ready, custom-background, theme-options, custom-menu, threaded-comments, featured-images, footer-widgets, editor-style, right-sidebar, full-width-template, two-columns, three-columns, grid-layout, custom-colors, custom-header, custom-logo, featured-image-header, blog, portfolio, entertainment
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Coast Pro is a clean and modern mobile responsive and super customizable WordPress theme built for travel agencies, tour planners, and tourist guides.  The theme is a finely crafted versatile WordPress theme with a bunch of pre-made demo styles and content. You can quickly launch your travel website within a few clicks. Furthermore, the theme is integrated with powerful plugin like the WP Travel plugin. The WP travel plugin allows you to add unlimited customized itineraries, tours, and travel packages along with travel booking and receiving payments. Furthermore, You can display the needed information about your services and packages cleanly and attractively, and the users can book the travel package effortlessly. Moreover, the theme is translation-ready and also cross-browser compatible.
+Coast is a clean and modern mobile responsive and super customizable WordPress theme built for travel agencies, tour planners, and tourist guides.  The theme is a finely crafted versatile WordPress theme with a bunch of pre-made demo styles and content. You can quickly launch your travel website within a few clicks. Furthermore, the theme is integrated with powerful plugin like the WP Travel plugin. The WP travel plugin allows you to add unlimited customized itineraries, tours, and travel packages along with travel booking and receiving payments. Furthermore, You can display the needed information about your services and packages cleanly and attractively, and the users can book the travel package effortlessly. Moreover, the theme is translation-ready and also cross-browser compatible.
 
 == Installation ==
 
@@ -21,8 +21,8 @@ Coast Pro is a clean and modern mobile responsive and super customizable WordPre
 
 == Copyright ==
 
-Coast Pro WordPress Theme, Copyright 2023 Theme Palace
-Link: https://themepalace.com/downloads/coast-pro
+Coast WordPress Theme, Copyright 2023 Theme Palace
+Link: https://themepalace.com/downloads/coast
 
 HTML5-Shiv is Licensed under the MIT and GPL licenses
     https://code.google.com/p/html5shiv/
